@@ -1,4 +1,29 @@
-.nav-item  a{
-    color: rgb(223, 0, 0);
+.footer-link{
+    font-size: larger;
+    font-weight: bold;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.foot{
+    direction: ltr;
     
 }
+.footer-link:hover{
+    color: rgb(128, 131, 131);
+}
+.fa-brands{
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 20px;
+    
+}
+.fa-instagram{
+    color: rgb(214,73,85);
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-whatsapp{
+    color: rgb(118, 192, 8);
+}
+

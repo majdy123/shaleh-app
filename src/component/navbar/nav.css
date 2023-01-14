@@ -2,12 +2,15 @@
 .logo{
    
     margin-top: 1vw;
-    margin-left:5vh ;
     height: 12vh;
     z-index: 6;
+    
   display: none;
 }
  
+.logoContainer{
+    margin-right: -50px;
+}
 .navlist{
     display: flex;
     list-style: none;
@@ -39,7 +42,7 @@
  
 }
 .navlist{
-    flex-direction: row-reverse;
+    flex-direction: row;
     width: 90vw;;
     display: flex;
     align-items: center;

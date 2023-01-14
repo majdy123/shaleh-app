@@ -7,9 +7,7 @@ export default class Nav extends Component {
     return (
       <>
     <nav className='Nav_align'>
-        <div>
-          <a  href="#"><img src={Logo} alt="BooNametstrap" className='logo'/></a>
-        </div>
+       
         <div>
         <ul className='navlist'>
           <li className='element'><a  className='link' href="#">الصفحة الرئيسية</a></li>
@@ -17,8 +15,11 @@ export default class Nav extends Component {
           <li className='element'><a  className='link' href="#">حول</a></li>
         </ul>
       </div>
-        
+      <div className='logoContainer' >
+          <a  href="#"><img src={Logo} alt="BooNametstrap" className='logo'/></a>
+        </div>
     </nav>
+    
       </>
     )
   }

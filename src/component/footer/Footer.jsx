@@ -4,15 +4,15 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-  <footer className="py-3 my-4 ">
-    <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-      <li className="nav-item "><a href="#" className="nav-link px-2 text-muted" > <span className='footer-link'>
+  <footer id='main_footer' className="py-3 my-4 ">
+    <ul className="nav justify-content-center border-bottom pb-3 mb-3 Baraa_Majdy">
+      <li className="nav-item "><a href="/home" className="nav-link px-2 text-muted" > <span className='footer-link'>
       الصفحة الرئيسية
         </span>  </a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted"  > <span className='footer-link'>
+      <li className="nav-item"><a href="/signin" className="nav-link px-2 text-muted"  > <span className='footer-link'>
       تسجيل الدخول
         </span></a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-muted"  > <span className='footer-link'>
+      <li className="nav-item"><a href="/about" className="nav-link px-2 text-muted"  > <span className='footer-link'>
       حول
         </span>      </a></li>
       

@@ -11,19 +11,23 @@
 .footer-link:hover{
     color: rgb(128, 131, 131);
 }
-.fa-brands{
+#main_footer .fa-brands{
     font-size: 25px;
     cursor: pointer;
     padding-left: 20px;
     
 }
-.fa-instagram{
+#main_footer .fa-instagram{
     color: rgb(214,73,85);
 }
-.fa-facebook{
+#main_footer .fa-facebook{
     color: blue;
 }
-.fa-whatsapp{
+#main_footer .fa-whatsapp{
     color: rgb(118, 192, 8);
 }
 
+.Baraa_Majdy{
+    display: flex;
+    flex-direction: row-reverse;
+}

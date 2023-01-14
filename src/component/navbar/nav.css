@@ -2,21 +2,18 @@
 .logo{
    
     margin-top: 1vw;
+    margin-left:5vh ;
     height: 12vh;
     z-index: 6;
-    
-  display: none;
+    display: none;
 }
  
-.logoContainer{
-    margin-right: -50px;
-}
 .navlist{
     display: flex;
     list-style: none;
 }
 .navlist .element{
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 5%;
 }
 .link{
@@ -35,14 +32,14 @@
  
 .Nav_align{
     position: fixed;
-    z-index: 6;
+    z-index: 9999;
     width: 100vw;
     display: flex;
     flex-direction: row;
  
 }
 .navlist{
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: 90vw;;
     display: flex;
     align-items: center;

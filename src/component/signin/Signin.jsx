@@ -4,13 +4,14 @@ import Logo from './logo1.png'
 export default class Signin extends Component {
   render() {
     return (
-          <div className="container" id="container">
+      <div className='Ali_dev'>
+          <div className="containerr" id='container'>
             <div className="form-container sign-up-container">
               <form action="#">
                 <img className='image_sign' src={Logo}></img>
                 <h1>انشاء حساب</h1>
                 <div className="social-container">
-                  <a href="" className="social"><i className="fa-brands fa-facebook"></i></a>
+                  <a href="" className="social"><i className="fab fa-facebook-f"></i></a>
                   <a href="" className="social"><i className="fab fa-google-plus-g"></i></a>
                   <a href="" className="social"><i className="fab fa-linkedin-in"></i></a>
                 </div>
@@ -45,14 +46,14 @@ export default class Signin extends Component {
                   <button className="ghost" onClick={fun} id="signIn">تسجيل دخول</button>
                 </div>
                 <div className="overlay-panel overlay-right">
-                  <h1>مرحبا هل تبحث عن شاليه ؟</h1>
+                  <h1>مرحبا هل لديك شاليه ؟</h1>
                   <p>قم بتسجيل بياناتك و ابدا رحلتك معنا</p>
                   <button className="ghost" onClick={fun} id="signUp">تسجيل حساب</button>
                 </div>
               </div>
             </div>
           </div>
-   
+          </div>
     )
     
     
@@ -66,6 +67,7 @@ function fun(){
 
 	signUpButton.addEventListener('click', () => {
 		container.classList.add("right-panel-active");
+    
 	});
 
 	signInButton.addEventListener('click', () => {

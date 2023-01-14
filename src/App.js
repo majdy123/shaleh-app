@@ -17,8 +17,6 @@ function App() {
       </Route>
       <Route path="/SignIn" element = {<Signin />} />
       <Route path='/admin/:id' element = {<Admin/>}/>
-      
-
       <Route path='*' element = {<NotFound/>}/>
     </Routes>
     </>

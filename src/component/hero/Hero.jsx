@@ -12,47 +12,48 @@ export default class Hero extends Component {
     return (
       <>
       <center>
+        <h1>!قم بأخذ جولة سريع و احجز الشاليه الخاص بك الان</h1>
         <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
+  <div className="carousel-inner slider-block">
     <div className="carousel-item active" data-bs-interval="2000">
     <img src={Img1} className="d-block w-100 carosel-img" alt="صورة شاليه"/>
-    <div class="carousel-caption d-none d-md-block">
-    <button className='bg-primary'>احجز الشاليه الخاص بك الان</button>
+    <div className="carousel-caption d-none d-md-block">
+    <button className='shalleh-book-button'><a className='view-shaleh-page' href='/view'>احجز الشاليه الخاص بك الان</a></button>
 
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
     <img src={Img2} className="d-block w-100 carosel-img" alt="صورة شاليه"/>
-    <div class="carousel-caption d-none d-md-block">
-    <button className='bg-primary '>احجز الشاليه الخاص بك الان</button>
+    <div className="carousel-caption d-none d-md-block">
+    <button className='shalleh-book-button'><a className='view-shaleh-page' href='/view'>احجز الشاليه الخاص بك الان</a></button>
 
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
     <img src={Img3} className="d-block w-100 carosel-img" alt="صورة شاليه"/>
-    <div class="carousel-caption d-none d-md-block">
-    <button className='bg-primary'>احجز الشاليه الخاص بك الان</button>
+    <div className="carousel-caption d-none d-md-block">
+    <button className='shalleh-book-button'><a className='view-shaleh-page' href='/view'>احجز الشاليه الخاص بك الان</a></button>
 
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
     <img src={Img4} className="d-block w-100 carosel-img" alt="صورة شاليه"/>
-    <div class="carousel-caption d-none d-md-block">
-    <button className='bg-primary '>احجز الشاليه الخاص بك الان</button>
+    <div className="carousel-caption d-none d-md-block">
+    <button className='shalleh-book-button'><a className='view-shaleh-page' href='/view'>احجز الشاليه الخاص بك الان</a></button>
 
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
     <img src={Img5} className="d-block w-100 carosel-img" alt="صورة شاليه"/>
-    <div class="carousel-caption d-none d-md-block">
-    <button className='bg-primary hover bttn'>احجز الشاليه الخاص بك الان</button>
+    <div className="carousel-caption d-none d-md-block">
+    <button className='shalleh-book-button'><a className='view-shaleh-page' href='/view'>احجز الشاليه الخاص بك الان</a></button>
 
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
     <img src={Img6} className="d-block w-100 carosel-img" alt="صورة شاليه"/>
-    <div class="carousel-caption d-none d-md-block">
-    <button className='bg-primary '>احجز الشاليه الخاص بك الان</button>
+    <div className="carousel-caption d-none d-md-block">
+    <button className='shalleh-book-button'><a className='view-shaleh-page' href='/view'>احجز الشاليه الخاص بك الان</a></button>
 
       </div>
     </div>

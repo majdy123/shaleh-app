@@ -16,8 +16,8 @@ export default class About extends Component {
                 <h5 className="card-title">حماية كاملة للباينات</h5>
                 <p className="card-text card_desc">حماية كاملة لكافلة التفاصيل الخاصة بعملية حجز الشاليه و التفاصيل الخاصة بعمليات الدفع و الاستلام</p>
                 </div>
-                <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer card_small_footer">
+                <small className="card_small_footer">Our policy on the site</small>
                 </div>
             </div>
             <div className="card card_adjust">
@@ -26,8 +26,8 @@ export default class About extends Component {
                 <h5 className="card-title">ضمانة لكافة التفاصيل</h5>
                 <p className="card-text card_desc">ضمانة الحصول على تفاصيل مطابقة للخدمات المعروضة للشاليه و بافضل الاسعار</p>
                 </div>
-                <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer card_small_footer">
+                <small  className="card_small_footer">Our policy on the site</small>
                 </div>
             </div>
             <div className="card card_adjust">
@@ -36,8 +36,8 @@ export default class About extends Component {
                 <h5 className="card-title">انت في ايد امينة</h5>
                 <p className="card-text card_desc">بامكانك استرداد المبلغ المدفوع في حالة حدوث اي مشكلة او عدم تطابق في التفاصيل المطلوبة للشاليه</p>
                 </div>
-                <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer card_small_footer">
+                <small className="text-muted card_small_footer">Our policy on the site</small>
                 </div>
             </div>
         </div>

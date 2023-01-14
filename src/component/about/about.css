@@ -25,10 +25,15 @@
 }
 .all_card_adjust{
     margin-top: 50px;
+    margin-bottom: 120px;
 }
 .card_desc{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: white;
+}
+.card_small_footer{
+    background-color: white;
 }

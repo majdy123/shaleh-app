@@ -1,0 +1,34 @@
+.img_card_resize{
+    width: 90px;
+    height: 90px;
+}
+.card_adjust{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    box-shadow: 4px 1px 24px 3px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 4px 1px 24px 3px rgba(0,0,0,0.73);
+    -moz-box-shadow: 4px 1px 24px 3px rgba(0,0,0,0.73);
+    padding-top: 50px;
+    padding-right:10px ;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin: 100px;
+}
+.card_adjust .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all_card_adjust{
+    margin-top: 50px;
+}
+.card_desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
